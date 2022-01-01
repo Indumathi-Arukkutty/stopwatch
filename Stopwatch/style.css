@@ -1,0 +1,50 @@
+body {
+    background: #050505d1;
+    color: rgb(245, 245, 245);
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: 3px solid white;
+    border-radius: 50px;
+    background: #0a0a0a;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+#stopWatch { 
+    width: 500px; 
+    height: auto; 
+    text-align: center; 
+    display: block; 
+    padding: 5px; 
+    margin: 0 auto; 
+    border: 3px solid rgb(156, 156, 156);
+    border-radius: 100px;
+}
+h3{
+    width: 500px; 
+    height: auto; 
+    text-align: center; 
+    display: block; 
+    padding: 5px; 
+    margin: 0 auto;
+}
+#buttons {
+    position: absolute;
+    top: 55%;
+    left: 48.4%;
+    transform: translate(-51.6%, -45%);
+}
+
+@media(max-width:581px){
+    #stopwatch{
+      width: 100px;
+    }
+    button{
+    width: 100px;
+    height: 30px;
+    }
+}
